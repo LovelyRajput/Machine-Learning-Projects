@@ -1,18 +1,18 @@
-# WEIGHT PREDICTION USING MACHINE LEARNING -Project(1)
-I have uploaded my project using machine learning language . 
+# Weight Prediction Using Machine Learning
 
-You can checkout further for projects in ML.
+## Overview
+This project predicts weight based on height and gender using machine learning.
 
-Project on Weight Prediction through Height and Gender
+## Dataset
+- **Features**: Height (numerical), Gender (categorical).
+- **Target**: Weight (numerical).
+- **File**: `dataset.csv` (add to repository or specify source).
 
-Actions in this project-
-
-DATA COLLECTION,
-PREPROCESSING,
-SPLITTING DATA,
-ML MODEL,
-TRAINED MODEL,
-NEW TEST DATA, 
-CHECKING ITS ACCURACY THROUGH NEW DATA.
-
-
+## Workflow
+1. **Data Collection**: Gather height, gender, weight data.
+2. **Preprocessing**: Handle missing values, encode gender, scale height.
+3. **Data Splitting**: Split into 80% training, 20% testing.
+4. **ML Model**: [Specify model, e.g., Linear Regression].
+5. **Training**: Train model on training data.
+6. **Testing**: Predict on new test data.
+7. **Accuracy**: Evaluate using MAE, MSE, or R² score.
